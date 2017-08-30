@@ -10,8 +10,12 @@ body {
 h1 {
   text-align: center;
 }
+.winningBox {
+  text-align: center;
+}
 .questioncontainer {
   max-width: 80%;
+  min-height: 125px;
   margin: 0 auto;
   padding: 20px;
   border-bottom: 1px solid #333;
