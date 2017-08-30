@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 function Scorebar(props) {
   return (
@@ -7,5 +8,9 @@ function Scorebar(props) {
     </div>
   );
 }
+
+Scorebar.PropTypes = {
+  height: PropTypes.string
+};
 
 export default Scorebar;

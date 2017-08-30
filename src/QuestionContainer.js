@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class QuestionContainer extends Component {
 
@@ -22,6 +23,15 @@ class QuestionContainer extends Component {
     );
   }
 
+}
+
+QuestionContainer.PropTypes = {
+  question: PropTypes.string,
+  answer: PropTypes.string,
+  showAnswer=: PropTypes.bool,
+  handleNext: PropTypes.func,
+  handleAnswer=: PropTypes.func,
+  player=: PropTypes.number
 }
 
 export default QuestionContainer;

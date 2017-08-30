@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 function ScoreController(props) {
   return (
@@ -8,5 +9,11 @@ function ScoreController(props) {
     </div>
   );
 }
+
+ScoreController.PropTypes = {
+  plus: PropTypes.func,
+  minus: PropTypes.func,
+  test: PropTypes.string.isRequired
+};
 
 export default ScoreController;
