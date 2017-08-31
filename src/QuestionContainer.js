@@ -28,10 +28,10 @@ class QuestionContainer extends Component {
 QuestionContainer.PropTypes = {
   question: PropTypes.string,
   answer: PropTypes.string,
-  showAnswer=: PropTypes.bool,
+  showAnswer: PropTypes.bool,
   handleNext: PropTypes.func,
-  handleAnswer=: PropTypes.func,
-  player=: PropTypes.number
+  handleAnswer: PropTypes.func,
+  player: PropTypes.number
 }
 
 export default QuestionContainer;

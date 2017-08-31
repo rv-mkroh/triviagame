@@ -35,6 +35,8 @@ h1 {
   background-color: blue;
   position: absolute;
   bottom: 0;
+  -webkit-transition: height 1s;
+  transition: height 1s;
 }
 .scorecontroller {
   margin-top: 10px;
