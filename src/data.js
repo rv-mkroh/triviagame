@@ -11,7 +11,7 @@ const data = {
       "winningPlayer": ''
     },
     "questions": [
-      {"question": "What is the airspeed velocity of an unladen African swallow?", "answer": "Ummm..."},
+      {"question": "What is the airspeed velocity of an unladen African swallow?", "answer": "12 mph"},
       {"question": "What is the capital of Pennsylvania", "answer": "Harrisburg"},
       {"question": "Why did the chicken cross the road?", "answer": "To get to the other side"}
     ],
