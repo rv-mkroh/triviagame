@@ -26,7 +26,7 @@ class Player extends Component {
   }
 }
 
-Player.PropTypes = {
+Player.propTypes = {
   stats: PropTypes.shape({
     name: PropTypes.string,
     score: PropTypes.number

@@ -9,7 +9,7 @@ function Scorebar(props) {
   );
 }
 
-Scorebar.PropTypes = {
+Scorebar.propTypes = {
   height: PropTypes.string
 };
 

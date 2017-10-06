@@ -10,10 +10,9 @@ function ScoreController(props) {
   );
 }
 
-ScoreController.PropTypes = {
+ScoreController.propTypes = {
   plus: PropTypes.func,
   minus: PropTypes.func,
-  test: PropTypes.string.isRequired
 };
 
 export default ScoreController;

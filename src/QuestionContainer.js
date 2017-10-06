@@ -25,7 +25,7 @@ class QuestionContainer extends Component {
 
 }
 
-QuestionContainer.PropTypes = {
+QuestionContainer.propTypes = {
   question: PropTypes.string,
   answer: PropTypes.string,
   showAnswer: PropTypes.bool,
