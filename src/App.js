@@ -11,7 +11,6 @@ class App extends Component {
   constructor() {
     // ES6 class constructors have to call super if they are subclasses in order to access 'this'
     super();
-    console.log(data);
     // bind all methods
     this.handleScoring = this.handleScoring.bind(this);
     this.handleNextClick = this.handleNextClick.bind(this);
