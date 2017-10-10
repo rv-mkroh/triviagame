@@ -2,6 +2,7 @@
   "name": "mygame",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://www.markkroh.com/triviagame",
   "devDependencies": {
     "react-scripts": "1.0.12"
   },
