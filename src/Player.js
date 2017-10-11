@@ -12,16 +12,15 @@ class Player extends Component {
     score += 'px';
 
     return (
-        <section className="player player1">
-            <h2>{this.props.stats.name}</h2>
-            <p className="score">Score: {this.props.stats.score}</p>
-            <Scorebar height={score} />
+      <section className="player player1">
+          <h2>{this.props.stats.name}</h2>
+          <p className="score">Score: {this.props.stats.score}</p>
+          <Scorebar height={score} />
 
-            { this.props.myturn && this.props.showControls &&
-            <ScoreController plus={this.props.handlePlusScore} minus={this.props.handleMinusScore} />
-            }
-
-        </section>
+          { this.props.myturn && this.props.showControls &&
+          <ScoreController plus={this.props.handlePlusScore} minus={this.props.handleMinusScore} />
+          }
+      </section>
     );
   }
 }
